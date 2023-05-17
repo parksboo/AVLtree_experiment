@@ -1,0 +1,3 @@
+[submodule "AVLtree_experiment"]
+	path = AVLtree_experiment
+	url = https://github.com/parksboo/AVLtree_experiment
