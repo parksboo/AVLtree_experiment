@@ -1,0 +1,10 @@
+Code: 254490
+Name: 임시이름
+Market capitalization: 6
+Price: 29
+Search time (in seconds) taken by the AVL tree. : 0.000018
+Code: 254490
+Name: 임시이름
+Market capitalization: 6
+Price: 29
+Search Time (in seconds) taken by list: 0.001855
