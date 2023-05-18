@@ -1,12 +1,16 @@
 자료구조의 활용 : 자료 검색 효울성 높이기 (AVL tree)
 ============================================
 
+
+
 + (해당자료는 chatGPT이 일부분 활용되어 만들어졌음을 알립니다.)
 
 # principle of implementation
+
 AVL tree의 구현은 크게 Binary Search Tree와 동일한 부분과 height를 활용한 rotation 부분으로 나눌 수 있다. 이 중 구현 난이도가 상대적으로 높은 후자의 구현에 중점을 둔 해설이다. 
 
 ## code
+
 
 + function insertNode 중 일부
 <pre>
@@ -60,28 +64,33 @@ right/left rotation은 같은 원리로 이루어지므로 right rotation의 cod
 # 프로그램 실행
 
 ## input file
-input file의 형식은 반드시 csv file이어야하며 UTF-8을 따라야합니다. 또한 실행 환경 또한 이에 맞춰 UTF-8을 따라야만 한글이 정상적으로 출력됩니다.
+
+input file은 반드시 csv file이어야하며 UTF-8로 인코딩 되어야합니다. 또한 실행 환경 또한 이에 맞춰 UTF-8을 따라야만 한글이 정상적으로 출력됩니다.
 test를 위한 input file은 dataset 디렉토리에 위치해있으며 더미 데이터인 exdata.csv, 실제 data인 tdata.csv로 이루어져있습니다.
+
 + 2023/04/13 KOSDAQ/KOSPI 기업의 기업코드/이름/시총/주가를 담고있는 tdata.csv 
 + mkdata.py file에 의해 만들어지는 실험을 위한 더미 데이터 exdata.csv
 
+
 ## 프로그램 구성
+
 실험을 구현하는 코드는 모두 c language로 구현이 되어있으며 makefile을 통해 컴파일할 수 있습니다.
+
 + avlTree.c : AVL tree의 구현 및 search algorithm
 + csv.c : input으로 csv file을 받아오고 해당 자료를 array 형태로 저장하는 것에 사용되는 함수 및 search algorithm
 + main.c : 만들어진 모듈들을 활용하려 실험을 구현하는 main 함수
 
+
 ## 실행
+
 실험의 실행은 test1.sh와 test2.sh를 통해 이루어지며 해당 쉘 스크립트를 통해 실험의 반복 수행 및 make를 포함한 실험에 필요한 전 과정을 하나의 cmd로 실행할 수 있도록 하였습니다.
+
 + test1.sh : 더미 데이터를 활용하여 data size별로 각각의 알고리즘을 수행, 결과를 result 디렉토리에 csv file로 저장
 + test2.sh : KOSDAQ/KOSPI 데이터를 활용하여 각각의 알고리즘을 반복 수행, 결과를 result 디렉토리에 csv file로 저장
 
+
 # 분석 및 시각화
+
 데이터의 분석 및 시각화는 Rstudio를 활용하였으며 visualization 디렉토리에 해당 코드가 저장되어있습니다.
 
-
-https://www.nayuki.io/page/avl-tree-list
-
-# code
-csv file을 읽어와 해당 파일에서 특정 코드를 검색
-사용조건 : csv file의 인코딩이 utf-8인지 확인 > 시스템의 locale 설정 확인(utf-8)
++ (해당자료는 chatGPT이 일부분 활용되어 만들어졌음을 알립니다.)
