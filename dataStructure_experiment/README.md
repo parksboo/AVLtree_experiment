@@ -74,7 +74,7 @@ test를 위한 input file은 dataset 디렉토리에 위치해있으며 더미 �
 
 ## 프로그램 구성
 
-실험을 구현하는 코드는 모두 c language로 구현이 되어있으며 makefile을 통해 컴파일할 수 있습니다.
+실험을 구현하는 코드는 모두 c language로 구현이 되어있으며 makefile을 통해 컴파일할 수 있습니다. 또한 전체 실험 과정의 편의성을 위해 shell script를 통해 visualization을 제외한 전체 과정이 cmd : sh test(test number).sh 입력으로 실행될 수 있도록 설계하였습니다.
 
 + avlTree.c : AVL tree의 구현 및 search algorithm
 + csv.c : input으로 csv file을 받아오고 해당 자료를 array 형태로 저장하는 것에 사용되는 함수 및 search algorithm
