@@ -66,7 +66,7 @@ right/left rotation은 같은 원리로 이루어지므로 right rotation의 cod
 ## input file
 
 input file은 반드시 csv file이어야하며 UTF-8로 인코딩 되어야합니다. 또한 실행 환경 또한 이에 맞춰 UTF-8을 따라야만 한글이 정상적으로 출력됩니다.
-test를 위한 input file은 dataset 디렉토리에 위치해있으며 더미 데이터인 exdata.csv, 실제 data인 tdata.csv로 이루어져있습니다.
+test를 위한 input file은 dataset 디렉토리에 위치해있으며 더미 데이터인 exdata.csv, naver finance에서 웹크롤링을 통해 얻은 실제 KOSPI/KOSDAQ data인 tdata.csv로 이루어져있습니다.
 
 + 2023/04/13 KOSDAQ/KOSPI 기업의 기업코드/이름/시총/주가를 담고있는 tdata.csv 
 + mkdata.py file에 의해 만들어지는 실험을 위한 더미 데이터 exdata.csv
