@@ -3,7 +3,7 @@
 
 
 
-+ (해당자료는 chatGPT이 일부분 활용되어 만들어졌음을 알립니다.)
++ (해당자료는 chatGPT 코드 리뷰 기능이 일부분 활용되어 만들어졌음을 알립니다.)
 
 # principle of implementation
 
@@ -93,4 +93,4 @@ test를 위한 input file은 dataset 디렉토리에 위치해있으며 더미 �
 
 데이터의 분석 및 시각화는 Rstudio를 활용하였으며 visualization 디렉토리에 해당 코드가 저장되어있습니다.
 
-+ (해당자료는 chatGPT이 일부분 활용되어 만들어졌음을 알립니다.)
++ (해당자료는 chatGPT의 코드 리뷰 기능이 일부분 활용되어 만들어졌음을 알립니다.)
