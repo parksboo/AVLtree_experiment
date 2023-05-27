@@ -5,7 +5,7 @@
 
 + (해당자료는 chatGPT 코드 리뷰 기능이 일부분 활용되어 만들어졌음을 알립니다.)
 
-# directory 구성
+# directory
 
 + dataset : 실험에 사용되는 data를 모아둔 directory
 + result : 실험 결과를 csv로 저장해둔 directory
