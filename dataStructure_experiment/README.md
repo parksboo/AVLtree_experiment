@@ -5,6 +5,12 @@
 
 + (해당자료는 chatGPT 코드 리뷰 기능이 일부분 활용되어 만들어졌음을 알립니다.)
 
+# directory 구성
+
++ dataset : 실험에 사용되는 data를 모아둔 directory
++ result : 실험 결과를 csv로 저장해둔 directory
++ visualization : 실험 결과를 시각화하는데 사용된 code를 모아둔 directory
+
 # principle of implementation
 
 AVL tree의 구현은 크게 Binary Search Tree와 동일한 부분과 height를 활용한 rotation 부분으로 나눌 수 있다. 이 중 구현 난이도가 상대적으로 높은 후자의 구현에 중점을 둔 해설이다. 
