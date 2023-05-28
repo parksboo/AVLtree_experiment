@@ -5,13 +5,13 @@
 
 typedef struct Node
 {
-    int code;
     char name[50];
+    struct Node *left;
+    struct Node *right;
+    int code;
     int mk_capitalization;
     int price;
     int height;
-    struct Node *left;
-    struct Node *right;
 } Node;
 
 int height(Node *N);
