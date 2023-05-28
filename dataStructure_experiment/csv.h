@@ -12,8 +12,8 @@
 
 typedef struct
 {
-    int code;
     char name[50];
+    int code;
     int mk_capitalization;
     int price;
 } element;
